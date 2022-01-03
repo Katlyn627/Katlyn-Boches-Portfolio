@@ -6,14 +6,13 @@
 }
 
 body {
+  background-image: url("../images/header-image.jpg");
   font-family:Arial, Helvetica, sans-serif;
-  background-color: #eee;
-  color: #283036;
 }
-/* Header Style Section */
-header {
+
+/* header {
   display: flex;
-  background-color: #31343d;
+  background-color: white;
   height: 80px;
   padding: 10px 20px 10px 0px;
 }
@@ -22,14 +21,11 @@ header .logo {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background-color: #92ccce;
+  background-color:whitesmoke;
   height: 100%;
   padding-right: 5%;
 }
-header .logo h1 {
-  font-size: 1cm;
-  margin-left: 10px;
-}
+header .logo 
 header nav {
   display: flex;
   flex-wrap: wrap;
@@ -42,13 +38,15 @@ header nav {
 header nav a {
   color: #92ccce;
   margin: 5px;
-}
+} */
 
 /* Header Image Style */
+
+
 .main-image {
-  background-image: url("../images/header-image.png");
-  background-repeat: no-repeat;
-  position: relative;
+  
+  background-repeat:space;
+  position:fixed;
   background-size: cover;
   height: 200px;
   width: 100%;
@@ -62,7 +60,7 @@ header nav a {
   justify-content: center;
   top: 140px;
   right: 50px;
-  background-color: #92ccce;
+  background-color: none;
 }
 
 /* Main Section Styling */
@@ -80,28 +78,28 @@ section {
 }
 
 section h1 {
-  display: flex;
+  display:block;
   flex-direction: column;
-  font-size: 4vw;
+  font-size:xx-large;
   width: 100px;
-  text-align: right;
-  align-items: flex-end;
+  text-align: left;
+  align-items: flex-start;
   padding-right: 20px;
 }
 
 section div {
   padding-left: 20px;
-  border-left: 5px solid #acb4c5;
+  
 }
 
-/* About Me Section */
+
 #about-me div img {
-  float: right;
+  float: left ;
   margin-left: 5px;
   margin-bottom: 5px;
 }
 
-/* Mock Up Work Section */
+
 #work div {
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +113,8 @@ section div {
 }
 
 .working-app {
-  width: 49%;
+  width:fit-content;
+  justify-content: space-between;
   margin-bottom: 10px;
   position: relative;
 }
@@ -125,7 +124,6 @@ section div {
 }
 
 .work-image {
-  border: 5px solid #92ccce;
   height: 80vh;
   width: 100%;
   filter: brightness(80%);
@@ -134,12 +132,11 @@ section div {
 .work-subtitle {
   position: absolute;
   left: 0;
-  bottom: 10%;
-  color: #465874;
-  background-color: #92ccce;
+  bottom: 15%;
+  color: black;
+  background-color: none;
   text-decoration: none;
   padding: 20px;
-  border-left: 5px solid #92ccce;
 }
 
 .work-subtitle h3 {
@@ -152,7 +149,7 @@ section div {
   width: 100%;
 }
 
-/* Contact Section */
+
 #contact-me div ul{
   display: flex;
   flex-wrap: wrap;
@@ -168,14 +165,14 @@ section div {
   padding: 5px;
   font-size: 20px;
   text-decoration: none;
-  border-bottom: 5px solid #283036;
+  border-bottom: 2px solid #283036;
 }
 
 #contact-me div a:hover {
   color: #92cbcd;
   background-color: #5d6e8a;
 }
-/* Added media style to adjust content properly */
+
 @media screen and (max-width:after) {
   header {
     flex-direction: column;
