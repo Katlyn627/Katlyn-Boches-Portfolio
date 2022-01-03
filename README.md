@@ -1,6 +1,6 @@
 # Professional-Portfolio-KIB
 
-<img src ="assets\images\Portfolio Screenshot.png">
+<img src ="">
 
 ## Acceptance Criteria
 
@@ -65,7 +65,7 @@ You are required to submit BOTH of the following for review:
 
 ## Deployment
 
-Public Page: https://katlyn627.github.io/Professional-Portfolio-KIB/
+Public Page: https://katlyn627.github.io/My-Updated-Portfolio/
 
 Github Respository: https://github.com/Katlyn627/Professional-Portfolio-KIB
 

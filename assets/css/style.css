@@ -10,44 +10,12 @@ body {
   font-family:Arial, Helvetica, sans-serif;
 }
 
-/* header {
-  display: flex;
-  background-color: white;
-  height: 80px;
-  padding: 10px 20px 10px 0px;
-}
-
-header .logo {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  background-color:whitesmoke;
-  height: 100%;
-  padding-right: 5%;
-}
-header .logo 
-header nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: center;
-  width: 40%;
-  margin-left: auto;
-}
-
-header nav a {
-  color: #92ccce;
-  margin: 5px;
-} */
-
-/* Header Image Style */
-
 
 .main-image {
   
   background-repeat:space;
   position:fixed;
-  background-size: cover;
+  background-size:auto;
   height: 200px;
   width: 100%;
   margin-bottom: 0px;
@@ -69,7 +37,8 @@ main {
   flex-direction: column;
   width: 70%;
   margin: 0 auto;
-  color: #465874;
+  color: black;
+  font-weight: bolder;
 }
 section {
   display: flex;
@@ -209,5 +178,19 @@ section div {
 @media screen and (max-width:after) {
   .working-app {
     width: 100%;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }

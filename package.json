@@ -1,5 +1,5 @@
 {
-  "name": "updated-portfolio-2",
+  "name": "my-updated-portfolio",
   "version": "1.0.0",
   "description": "Updated Portfolio",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Katlyn627/Updated-Portfolio-2.git"
+    "url": "git+https://github.com/Katlyn627/My-Updated-Portfolio.git"
   },
   "author": "Katlyn Boches",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Katlyn627/Updated-Portfolio-2/issues"
+    "url": "https://github.com/Katlyn627/My-Updated-Portfolio/issues"
   },
-  "homepage": "https://github.com/Katlyn627/Updated-Portfolio-2#readme",
+  "homepage": "https://github.com/Katlyn627/My-Updated-Portfolio#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
   }
