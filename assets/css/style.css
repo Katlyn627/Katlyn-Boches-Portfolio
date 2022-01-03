@@ -1,0 +1,216 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  color: #283036;
+}
+/* Header Style Section */
+header {
+  display: flex;
+  background-color: #31343d;
+  height: 80px;
+  padding: 10px 20px 10px 0px;
+}
+
+header .logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #92ccce;
+  height: 100%;
+  padding-right: 5%;
+}
+header .logo h1 {
+  font-size: 1cm;
+  margin-left: 10px;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+  width: 40%;
+  margin-left: auto;
+}
+
+header nav a {
+  color: #92ccce;
+  margin: 5px;
+}
+
+/* Header Image Style */
+.main-image {
+  background-image: url("../images/header-image.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 140px;
+  right: 50px;
+  background-color: #92ccce;
+}
+
+/* Main Section Styling */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  color: #465874;
+}
+section {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 4vw;
+  width: 100px;
+  text-align: right;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+section div {
+  padding-left: 20px;
+  border-left: 5px solid #acb4c5;
+}
+
+/* About Me Section */
+#about-me div img {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+/* Mock Up Work Section */
+#work div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 90%;
+}
+
+.work-main-class {
+  width: 100%;
+  position: relative;
+}
+
+.working-app {
+  width: 49%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.work-image:hover {
+  filter: brightness(100%);
+}
+
+.work-image {
+  border: 5px solid #92ccce;
+  height: 80vh;
+  width: 100%;
+  filter: brightness(80%);
+}
+
+.work-subtitle {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  color: #465874;
+  background-color: #92ccce;
+  text-decoration: none;
+  padding: 20px;
+  border-left: 5px solid #92ccce;
+}
+
+.work-subtitle h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#393840;
+  font-size: 20px;
+}
+
+.feature {
+  width: 100%;
+}
+
+/* Contact Section */
+#contact-me div ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
+
+#contact-me div a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 5px solid #283036;
+}
+
+#contact-me div a:hover {
+  color: #92cbcd;
+  background-color: #5d6e8a;
+}
+/* Added media style to adjust content properly */
+@media screen and (max-width:after) {
+  header {
+    flex-direction: column;
+  }
+
+  header .logo,
+  header nav {
+    width: 100vw;
+  }
+
+  header .logo h1 {
+    margin: 0 auto;
+  }
+
+  .main-image .subtitle {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  #contact-me div {
+    flex-direction: column;
+  }
+
+  #contact-me div a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:after) {
+  .working-app {
+    width: 100%;
+  }
+}
