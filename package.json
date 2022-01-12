@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Katlyn627/My-Updated-Portfolio#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "heroku": "^7.33.3"
   }
 }
