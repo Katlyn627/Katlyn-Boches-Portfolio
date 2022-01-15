@@ -1,195 +1,78 @@
 /* Global Styles */
+
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  background-image: url("../images/header-image.jpg");
-  font-family:Arial, Helvetica, sans-serif;
+    background-image: url("../images/header-image.jpg");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.header-img {
+    width: 100%;
+    height: 400px;
+    background: url('https://wanderlusttraveldesigns.com/wp-content/uploads/2019/10/Wanderlust-travel-designs-background1.jpg');
+    background-size: auto;
+}
+
+.headshot {
+    border-radius: 70%;
+    max-width: 100%;
+    text-align: left;
+}
+
+.quote,
+.about-me {
+    font-family: fantasy;
+}
 
 .main-image {
-  
-  background-repeat:space;
-  position:fixed;
-  background-size:auto;
-  height: 200px;
-  width: 100%;
-  margin-bottom: 0px;
+    background-repeat: space;
+    position: fixed;
+    background-size: auto;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 .subtitle {
-  display: flex;
-  position: absolute;
-  flex-wrap: wrap;
-  justify-content: center;
-  top: 140px;
-  right: 50px;
-  background-color: none;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 140px;
+    right: 50px;
+    background-color: none;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: 0 auto;
-  color: black;
-  font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    font-weight: bolder;
 }
+
 section {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section h1 {
-  display:block;
-  flex-direction: column;
-  font-size:xx-large;
-  width: 100px;
-  text-align: left;
-  align-items: flex-start;
-  padding-right: 20px;
+    display: block;
+    flex-direction: column;
+    font-size: xx-large;
+    width: 100px;
+    text-align: left;
+    align-items: flex-start;
+    padding-right: 20px;
 }
 
 section div {
-  padding-left: 20px;
-  
-}
-
-
-#about-me div img {
-  float: left ;
-  margin-left: 5px;
-  margin-bottom: 5px;
-}
-
-
-#work div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 90%;
-}
-
-.work-main-class {
-  width: 100%;
-  position: relative;
-}
-
-.working-app {
-  width:fit-content;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.work-image:hover {
-  filter: brightness(100%);
-}
-
-.work-image {
-  height: 80vh;
-  width: 100%;
-  filter: brightness(80%);
-}
-
-.work-subtitle {
-  position: absolute;
-  left: 0;
-  bottom: 15%;
-  color: black;
-  background-color: none;
-  text-decoration: none;
-  padding: 20px;
-}
-
-.work-subtitle h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  color:#393840;
-  font-size: 20px;
-}
-
-.feature {
-  width: 100%;
-}
-
-
-#contact-me div ul{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-  width: 100%;
-}
-
-#contact-me div a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  margin: 5px;
-  padding: 5px;
-  font-size: 20px;
-  text-decoration: none;
-  border-bottom: 2px solid #283036;
-}
-
-#contact-me div a:hover {
-  color: #92cbcd;
-  background-color: #5d6e8a;
-}
-
-@media screen and (max-width:after) {
-  header {
-    flex-direction: column;
-  }
-
-  header .logo,
-  header nav {
-    width: 100vw;
-  }
-
-  header .logo h1 {
-    margin: 0 auto;
-  }
-
-  .main-image .subtitle {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  main {
-    width: 100%;
-    padding: 0px 10px;
-  }
-
-  #contact-me div {
-    flex-direction: column;
-  }
-
-  #contact-me div a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:after) {
-  .working-app {
-    width: 100%;
-  }
-}
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+    padding-left: 20px;
 }
