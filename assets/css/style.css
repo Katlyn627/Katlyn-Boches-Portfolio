@@ -76,3 +76,8 @@ section h1 {
 section div {
     padding-left: 20px;
 }
+
+body,
+html {
+    height: 100%;
+}
