@@ -1,102 +1,105 @@
-/* Global Styles */
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-image: url("../images/header-image.jpg");
-    font-family: 'Source Serif Pro', serif;
-    font-size-adjust: inherit;
-}
-
-.header-img {
-    width: 100%;
-    height: 400px;
-    background: url('https://wanderlusttraveldesigns.com/wp-content/uploads/2019/10/Wanderlust-travel-designs-background1.jpg');
-    background-size: auto;
-}
-
-.headshot {
-    border-radius: 70%;
-    max-width: 100%;
-    text-align: left;
-}
-
-.main-image {
-    background-repeat: space;
-    position: fixed;
-    background-size: auto;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 0px;
-}
-
-p,
-li,
-ul {
-    font-family: 'The Nautigal';
-    font-size: medium;
-}
-
-h1 {
-    font-size: x-large;
-}
-
-.subtitle {
-    display: flex;
-    position: absolute;
-    flex-wrap: wrap;
-    justify-content: center;
-    top: 140px;
-    right: 50px;
-    background-color: none;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 0 auto;
-    color: black;
-    font-weight: bolder;
-}
-
-section {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-section h1 {
-    display: block;
-    flex-direction: column;
-    font-size: xx-large;
-    width: 100px;
-    text-align: left;
-    align-items: flex-start;
-    padding-right: 20px;
-}
-
-section div {
-    padding-left: 20px;
-}
-
-body,
-html {
-    height: 100%;
-}
-
-@media screen and (min-width: 400px) {
-    body {
-        background-color: lightslategray;
+    /* Global Styles */
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
     }
-}
-
-@media screen and (min-width: 800px) {
+    
     body {
-        background-color: lavender;
+        background-image: url("../images/header-image.jpg");
+        font-family: 'Source Serif Pro', serif;
+        font-size-adjust: inherit;
     }
-}
+    
+    .header-img {
+        width: 100%;
+        height: 400px;
+        background: url('https://wanderlusttraveldesigns.com/wp-content/uploads/2019/10/Wanderlust-travel-designs-background1.jpg');
+        background-size: auto;
+    }
+    
+    .headshot {
+        border-radius: 70%;
+        max-width: 100%;
+        text-align: left;
+    }
+    
+    .main-image {
+        background-repeat: space;
+        position: fixed;
+        background-size: auto;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    p,
+    li,
+    ul {
+        font-family: 'The Nautigal';
+        font-size: medium;
+    }
+    
+    h1 {
+        font-size: x-large;
+    }
+    
+    .subtitle {
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 140px;
+        right: 50px;
+        background-color: none;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    section {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    section h1 {
+        display: block;
+        flex-direction: column;
+        font-size: xx-large;
+        width: 100px;
+        text-align: left;
+        align-items: flex-start;
+        padding-right: 20px;
+    }
+    
+    section div {
+        padding-left: 20px;
+    }
+    
+    body,
+    html {
+        height: 100%;
+    }
+    
+    @media screen and (min-width: 400px) {
+        *,
+        h4 {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    @media screen and (min-width: 800px) {
+        body {
+            background-color: lavender;
+        }
+    }
