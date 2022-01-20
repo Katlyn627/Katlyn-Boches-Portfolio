@@ -14,7 +14,7 @@
         
         .header-img {
             width: 100%;
-            height: 400px;
+            height: 900px;
             background: url('https://wanderlusttraveldesigns.com/wp-content/uploads/2019/10/Wanderlust-travel-designs-background1.jpg');
             background-size: auto;
         }
@@ -89,17 +89,10 @@
             height: 100%;
         }
         
-        @media screen and (min-width: 400px) {
-            *,
-            h4 {
-                box-sizing: border-box;
-                padding: 0;
-                margin: 0;
-            }
-        }
-        
-        @media screen and (min-width: 800px) {
-            body {
-                background-color: lavender;
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="main, h4"] {
+                width: auto;
+                height: auto;
             }
         }
