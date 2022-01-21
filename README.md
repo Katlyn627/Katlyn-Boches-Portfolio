@@ -1,6 +1,6 @@
 # Professional-Portfolio-KIB
 
-<img src ="">
+<img src ="assets/images/screenshot.jpg">
 
 ## Acceptance Criteria
 
