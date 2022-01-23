@@ -12,8 +12,9 @@
         font-size-adjust: inherit;
     }
     
-    .proj-des {
-        text-align: right;
+    p {
+        color: black;
+        text-align: center;
     }
     
     .header-img {
